@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Love</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #f0f8ff;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            color: #ff69b4;
+            text-align: center;
+        }
+
+        p {
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+
+        a {
+            color: #ff69b4;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        button {
+            background-color: #ff69b4;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #ff1493;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .card img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        .card-title {
+            font-size: 1.5em;
+            color: #ff69b4;
+            margin-bottom: 10px;
+        }
+
+        .card-text {
+            font-size: 1em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Pedro's GitHub</h1>
+    </header>
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <p>Hello! I'm Pedro, a passionate developer. Check out my projects below.</p>
+        </section>
+        <section>
+            <h2>Projects</h2>
+            <ul>
+                <li><a href="https://github.com/pedro/project1">Project 1</a></li>
+                <li><a href="https://github.com/pedro/project2">Project 2</a></li>
+                <li><a href="https://github.com/pedro/project3">Project 3</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Pedro. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Function to match elements in two arrays
+        function matchElements(array1, array2) {
+            return array1.filter(element => array2.includes(element));
+        }
+
+        // Example usage
+        const array1 = ['apple', 'banana', 'cherry'];
+        const array2 = ['banana', 'cherry', 'date'];
+
+        const matchedElements = matchElements(array1, array2);
+        console.log(matchedElements); // Output: ['banana', 'cherry']
+    </script>
+</body>
+</html>
